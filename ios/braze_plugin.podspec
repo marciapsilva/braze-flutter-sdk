@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
-  s.static_framework = true
 
   s.dependency 'Flutter'
   s.dependency 'BrazeKit', '~> 10.3.1'
